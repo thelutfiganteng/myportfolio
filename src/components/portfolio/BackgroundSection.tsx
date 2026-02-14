@@ -34,7 +34,7 @@ const BackgroundSection = () => {
 
           <div className="grid gap-6 md:grid-cols-2">
             {education.map((edu, i) => (
-              <motion.div key={i} variants={fadeUp} className="material-card p-8">
+              <motion.div key={i} variants={fadeUp} className="material-card p-4 sm:p-6 md:p-8">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="timeline-dot">
                     <GraduationCap className="w-5 h-5 text-foreground" />

@@ -84,8 +84,7 @@ const ResearchSection = () => {
 
           <div className="space-y-4">
             {publications.map((pub, i) => (
-              <motion.div key={i} variants={fadeUp} className="material-card p-8 group cursor-pointer">
-                <div className="flex items-start gap-4">
+              <motion.div key={i} variants={fadeUp} className="material-card p-4 sm:p-6 md:p-8 group cursor-pointer">                <div className="flex items-start gap-4">
                   <div className="timeline-dot bg-secondary">
                     <BookOpen className="w-5 h-5 text-foreground" />
                   </div>

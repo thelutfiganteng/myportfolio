@@ -91,8 +91,7 @@ const ExperienceSection = () => {
                       <Briefcase className="w-5 h-5 text-foreground" />
                     </div>
                   </div>
-                  <div className="material-card p-8 flex-1">
-                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                  <div className="material-card p-4 sm:p-6 md:p-8 flex-1">                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
                       <div>
                         <h3 className="text-lg font-bold text-foreground">{exp.role}</h3>
                         <p className="text-muted-foreground font-medium">{exp.company}</p>

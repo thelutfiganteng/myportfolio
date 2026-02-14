@@ -24,21 +24,21 @@ const HeroSection = () => {
 
         <motion.h1
           variants={fadeUp}
-          className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-foreground tracking-tight leading-[1.1] mb-6 text-balance"
+          className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-foreground tracking-tight leading-[1.1] mb-4 sm:mb-6 text-balance"
         >
           Muhammad Lutfi Kurniawan
         </motion.h1>
 
         <motion.p
           variants={fadeUp}
-          className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4 font-light"
+          className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-3 sm:mb-4 font-light"
         >
           Tech and Business Enthusiast
         </motion.p>
 
         <motion.p
           variants={fadeUp}
-          className="text-base text-muted-foreground max-w-xl mx-auto mb-12"
+          className="text-sm sm:text-base text-muted-foreground max-w-xl mx-auto mb-8 sm:mb-12"
         >
           Berpengalaman dalam membangun produk digital yang berdampak.
           Passionate terhadap teknologi dan keuangan.
@@ -47,15 +47,13 @@ const HeroSection = () => {
         <motion.div variants={fadeUp} className="flex gap-4 justify-center flex-wrap">
           <a
             href="#tentang"
-            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-foreground text-background font-semibold text-sm hover:opacity-90 transition-opacity duration-200"
-          >
+ className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 rounded-full bg-foreground text-background font-semibold text-sm hover:opacity-90 transition-opacity duration-200"          >
             Lihat Portfolio
             <ArrowDown className="w-4 h-4" />
           </a>
           <a
             href="#kontak"
-            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full border border-border text-foreground font-semibold text-sm hover:bg-secondary transition-colors duration-200"
-          >
+  className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 rounded-full border border-border text-foreground font-semibold text-sm hover:bg-secondary transition-colors duration-200"          >
             Hubungi Saya
           </a>
         </motion.div>

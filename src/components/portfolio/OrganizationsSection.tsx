@@ -24,7 +24,7 @@ const OrganizationsSection = () => {
 
           <div className="space-y-4">
             {organizations.map((org, i) => (
-              <motion.div key={i} variants={fadeUp} className="material-card p-8">
+              <motion.div key={i} variants={fadeUp} className="material-card p-4 sm:p-6 md:p-8">
                 <div className="flex items-start gap-4">
                   <div className="timeline-dot">
                     <Users className="w-5 h-5 text-foreground" />

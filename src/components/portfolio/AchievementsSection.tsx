@@ -24,10 +24,9 @@ const AchievementsSection = () => {
           <motion.p variants={fadeUp} className="section-title">Prestasi</motion.p>
           <motion.h2 variants={fadeUp} className="section-heading">Kejuaraan</motion.h2>
 
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             {achievements.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} className="material-card p-8 text-center">
-                <div className="text-4xl mb-4">{item.medal}</div>
+              <motion.div key={i} variants={fadeUp} className="material-card p-4 sm:p-6 md:p-8 text-center">                <div className="text-4xl mb-4">{item.medal}</div>
                 <h3 className="text-base font-bold text-foreground mb-1">{item.title}</h3>
                 <p className="text-sm font-medium text-muted-foreground mb-3">{item.event}</p>
                 <p className="text-sm text-muted-foreground">{item.description}</p>
