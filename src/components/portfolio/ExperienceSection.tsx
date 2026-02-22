@@ -4,14 +4,14 @@ import { fadeUp, staggerContainer } from "@/lib/animations";
 
 const experiences = [
   {
-    role: "System Analysts & Business Intelligence",
+    role: "Project Manager & System Analysts",
     company: "Politeknik Negeri Sriwijaya",
     period: "Februari 2026 - Juni 2026 (Project Based)",
     description: "Bertanggung jawab menganalisis kebutuhan bisnis dan sistem pada project-based pengembangan APLIKASI PERJALANAN DINAS. Fokus pada perancangan alur proses, pemetaan kebutuhan pengguna, serta pengolahan dan analisis data keuangan untuk menghasilkan insight yang mendukung efisiensi, akurasi, dan transparansi pengelolaan perjalanan dinas di lingkungan Politeknik Negeri Sriwijaya.",
     skills: ["System Analysts", "Business Intelligence & Data Analysts", "Business Process Mapping", "Stakeholder Communication"],
   },
   {
-    role: "System Analysts & Business Intelligence",
+    role: "Project Manager & System Analysts",
     company: "Politeknik Negeri Sriwijaya",
     period: "Oktober 2025 – Januari 2026 (Project Based)",
     description: "Bertanggung jawab dalam project-based pengembangan APLIKASI HONORARIUM DOSEN DAN PEGAWAI. Fokus pada analisis kebutuhan sistem, perancangan alur proses pembayaran honorarium, serta pengolahan dan analisis data keuangan guna meningkatkan akurasi, efisiensi, dan transparansi pengelolaan honorarium di lingkungan Politeknik Negeri Sriwijaya.",
