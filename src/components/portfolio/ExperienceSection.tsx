@@ -46,10 +46,10 @@ const experiences = [
     skills: ["Website Development", "System Analysts", "UI/UX Designer"],
   },
   {
-    role: "UI/UX Designer & System Analysts",
+    role: "Project Manager & UI/UX Designer",
     company: "ATR-BPN - Kabupaten Ogan Komering Ilir",
     period: "Januari 2025 – Juni 2025 (Project Based)",
-    description: "Berperan dalam perancangan UI/UX dan analisis kebutuhan sistem pada aplikasi layanan administrasi pertanahan, dengan fokus pada kemudahan penggunaan, kejelasan alur layanan, serta peningkatan efisiensi dan kualitas pelayanan publik.",
+    description: "Berperan dalam memimpin, perancangan UI/UX dan analisis kebutuhan sistem pada aplikasi layanan administrasi pertanahan, dengan fokus pada kemudahan penggunaan, kejelasan alur layanan, serta peningkatan efisiensi dan kualitas pelayanan publik.",
     skills: ["System Analysts", "UI/UX Designer", "Stakeholder Communication"],
   },
   {
