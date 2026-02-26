@@ -57,6 +57,11 @@ export default {
           container: "hsl(var(--surface-container))",
           "container-high": "hsl(var(--surface-container-high))",
         },
+        gradient: {
+          start: "hsl(var(--gradient-start))",
+          mid: "hsl(var(--gradient-mid))",
+          end: "hsl(var(--gradient-end))",
+        },
         outline: {
           DEFAULT: "hsl(var(--outline))",
           variant: "hsl(var(--outline-variant))",
