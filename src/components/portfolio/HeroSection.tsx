@@ -43,8 +43,8 @@ const HeroSection = () => {
             variants={fadeUp}
             className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-4 sm:mb-6 text-balance"
           >
-            <span className="text-foreground">Muhammad Lutfi Kurniawan </span>
-            <span className="bg-gradient-to-r from-[hsl(var(--gradient-start))] via-[hsl(var(--gradient-mid))] to-[hsl(var(--gradient-end))] bg-clip-text text-transparent">Lengkap</span>
+            <span className="text-foreground">Muhammad Lutfi </span>
+            <span className="bg-gradient-to-r from-[hsl(var(--gradient-start))] via-[hsl(var(--gradient-mid))] to-[hsl(var(--gradient-end))] bg-clip-text text-transparent">Kurniawan</span>
           </motion.h1>
 
           <motion.p
