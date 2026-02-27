@@ -43,7 +43,7 @@ const HeroSection = () => {
             variants={fadeUp}
             className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-4 sm:mb-6 text-balance"
           >
-            <span className="text-foreground">Nama </span>
+            <span className="text-foreground">Muhammad Lutfi Kurniawan </span>
             <span className="bg-gradient-to-r from-[hsl(var(--gradient-start))] via-[hsl(var(--gradient-mid))] to-[hsl(var(--gradient-end))] bg-clip-text text-transparent">Lengkap</span>
           </motion.h1>
 
@@ -51,7 +51,7 @@ const HeroSection = () => {
             variants={fadeUp}
             className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-3 sm:mb-4 font-light"
           >
-            Software Engineer · UI/UX Designer · Problem Solver
+            Business and Tech Enthusiast
           </motion.p>
 
           <motion.p
@@ -59,7 +59,7 @@ const HeroSection = () => {
             className="text-sm sm:text-base text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8 sm:mb-12"
           >
             Berpengalaman dalam membangun produk digital yang berdampak.
-            Passionate terhadap teknologi dan inovasi.
+            Passionate terhadap teknologi dan ekonomi.
           </motion.p>
 
           <motion.div variants={fadeUp} className="flex gap-4 justify-center lg:justify-start flex-wrap">
