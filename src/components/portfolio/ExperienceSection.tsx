@@ -6,7 +6,7 @@ const experiences = [
   {
     role: "Project Manager & System Analysts",
     company: "Politeknik Negeri Sriwijaya",
-    period: "Oktober 2025 – Januari 2026 (Project Based)",
+    period: "Oktober 2025 – Februari 2026 (Project Based)",
     description: "Bertanggung jawab dalam project-based pengembangan APLIKASI HONORARIUM DOSEN DAN PEGAWAI. Fokus pada analisis kebutuhan sistem, perancangan alur proses pembayaran honorarium, serta pengolahan dan analisis data keuangan guna meningkatkan akurasi, efisiensi, dan transparansi pengelolaan honorarium di lingkungan Politeknik Negeri Sriwijaya.",
     skills: ["System Analysts", "Business Intelligence & Data Analysts", "Business Process Mapping", "Stakeholder Communication"],
   },
